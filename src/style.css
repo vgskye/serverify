@@ -1,0 +1,44 @@
+:root {
+  font-family: var(--fontFamilyBase);
+  color: var(--colorNeutralForeground2);
+  background: var(--colorNeutralBackground2);
+}
+
+.desc {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 0.5em;
+}
+
+.entry {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5em;
+  background: var(--colorNeutralBackground1);
+  padding: 0.75em;
+  border-radius: 0.25em;
+  margin: 0.5em;
+}
+
+.title {
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  gap: 0.5em;
+}
+
+h2, p {
+  margin: 0;
+}
+
+.padding {
+  flex-grow: 1;
+}
+
+.versions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
