@@ -1,3 +1,4 @@
+//@ts-nocheck
 //@ts-expect-error
 import { h } from 'start-dom-jsx';
 
@@ -63,7 +64,7 @@ async function research() {
   hits.replaceChildren();
   for (const hit of parsed.hits) {
     console.log(hit);
-    const icon_url = hit.icon_url ? hit.icon_url : "/vite.svg";
+    const icon_url = hit.icon_url ? hit.icon_url : "/icon.svg";
     const entry = (
       <div class="entry">
         <fluent-avatar size="96">
